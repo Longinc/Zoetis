@@ -1,0 +1,40 @@
+$primary-color: #f65c00;
+$primary-background: #f6f5f4;
+$secondary-headline: #585858;
+$body-text: #3b3e4a;
+$secondary-background: #dedede;
+
+$sub-section-mb: 45px;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+ul[class] {
+  list-style-type: none;
+}
+
+hr {
+  margin-bottom: 63.5px;
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+section {
+  > section {
+    border: 1px solid cyan;
+    border-radius: 8px;
+  }
+}
